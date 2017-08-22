@@ -2,7 +2,6 @@ var gulp = require('gulp'),
 	util = require('gulp-util'),
 	vftp = require('vinyl-ftp');
 
-
 gulp.task('default', function() {
 	var conn = vftp.create({
 		host: 'paulmakesthe.net',

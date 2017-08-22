@@ -7,7 +7,7 @@ html(lang="en")
 		title #{name} R&eacute;sum&eacute;
 		link(rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karla:n,i,b,bi")
 		link(rel="stylesheet" href=(environment == "production" ? "/resume/main.css" : "/main.css"))
-	body(class="bg-washed-yellow near-black lh-copy mb4 w-90 w-80-ns w-70-l w-100-p center")
+	body(class="bg-washed-yellow lh-copy mb4 w-90 w-80-ns w-70-l w-100-p center")
 		!= partial("_partials/_header")
 		!= yield
 		if environment == "production"

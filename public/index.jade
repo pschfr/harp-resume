@@ -1,36 +1,35 @@
-.w-100.cf
-	.w-70-ns.w-100.fl-ns.pr2-ns
-		h2 Experience
-		ul(class="measure-ns")
-			for job, name in experience
-				li
-					h4 #{job.title} at #{name}
-					| 
-					small(class="db")= job.time
-					p= job.desc
-		h2 Client Work
-		ul(class="measure-ns")
-			for client, name in work
-				li
-					h4
-						a(href="#{ client.url }")= name
-					| 
-					small(class="db")= client.date
-					p= client.desc
-	.w-30-ns.w-100.fr-ns.pl2-ns
-		h2 Education
-		ul
-			for years, school in education
-				li(class="dib-p mr2-p")
-					h4= school
-					| 
-					p
-						small(class="db")= years
-		h2 Skills
-		ul
-			for skill in skills
-				li(class="dib-p mr2-p")= skill
-		h2 Achievements
-		ul
-			for award in achievements
-				li= award
+.w-70-ns.w-100.fl-ns.pr2-ns
+	h2 Experience
+	ul(class="measure-ns")
+		for job, name in experience
+			li
+				h4 #{job.title} at #{name}
+				| 
+				small(class="db")= job.time
+				p= job.desc
+	h2 Client Work
+	ul(class="measure-ns")
+		for client, name in work
+			li
+				h4
+					a(href="#{ client.url }")= name
+				| 
+				small(class="db")= client.date
+				p= client.desc
+.w-30-ns.w-100.fr-ns.pl2-ns
+	h2 Education
+	ul
+		for details, school in education
+			li(class="dib-p mr2-p")
+				h4= school
+				| 
+				p= details.major
+					small(class="db")= details.time
+	h2 Skills
+	ul
+		for skill in skills
+			li(class="dib-p mr2-p")= skill
+	h2 Achievements
+	ul
+		for award in achievements
+			li= award

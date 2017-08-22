@@ -9,9 +9,17 @@
 			"url": "https://paulmakesthe.net"
 		},
 		"education": {
-			"The Art Institute of Pittsburgh": "2013 - 2015",
-			"Erie County Technical School": "2010 - 2013",
-			"Northwestern Senior High School": "2009 - 2013"
+			"The Art Institute of Pittsburgh": {
+				"time": "2013 - 2015",
+				"major": "Web Design and Interactive Media"
+			},
+			"Erie County Technical School": {
+				"time": "2010 - 2013",
+				"major": "Computer Programming"
+			},
+			"Northwestern Senior High School": {
+				"time": "2009 - 2013"
+			}
 		},
 		"skills": [
 			"HTML",
