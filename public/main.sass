@@ -1,0 +1,34 @@
+@import '_sass/tachyons.scss'
+@import '_sass/tachyons-print.scss'
+
+body
+	font-family: 'Karla', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif
+	font-size: 17px
+
+// All links get .dim and .link, as well as inherit color from parent
+a
+	@extend .dim
+	@extend .link
+	color: inherit
+	text-decoration-skip: ink
+
+// All unordered lists get no list-item, and resetted margin and padding
+ul
+	@extend .list
+	@extend .pl0
+	@extend .mt0
+	li
+		@extend .mb1
+
+// Resets margins on subheadings
+h2
+	@extend .mb2
+h4
+	@extend .mv0
+
+// Remove top margin on paragraphs
+p
+	@extend .mt0
+
+// h2:not(:first-child)
+	@extend .mt5

@@ -1,0 +1,61 @@
+{
+	"globals": {
+		"name": "Paul Schaefer",
+		"github": "https://github.com/pschfr/resume",
+		"analytics": "UA-76037357-5",
+		"contact": {
+			"phone": "+1-412-414-9939",
+			"email": "hello@paulmakesthe.net",
+			"url": "https://paulmakesthe.net"
+		},
+		"education": {
+			"The Art Institute of Pittsburgh": "2013 - 2015",
+			"Erie County Technical School": "2010 - 2013",
+			"Northwestern Senior High School": "2009 - 2013"
+		},
+		"skills": [
+			"HTML",
+			"CSS",
+			"JavaScript",
+			"PHP",
+			"Git",
+			"Bash",
+			"Python",
+			"Microsoft Office"
+		],
+		"achievements": [
+			"Former member of SkillsUSA",
+			"Sixth in nation for Technical Computer Applications (work in Microsoft Office)"
+		],
+		"experience": {
+			"O2 Digital Creative Agency": {
+				"title": "Developer",
+				"time": "March 2014 - October 2014; October 2015 - July 2017",
+				"desc": "I created and maintained dozens of websites and apps for clients small and large. This ranged anywhere from a typical WordPress or Joomla installation, to our own custom PHP-based framework powered by Twig and AWS. Our phone apps were created with Backbone and Apache Cordova."
+			},
+			"Freeze Frame, LLC": {
+				"title": "Photographer",
+				"time": "November 2013 - December 2013; November 2014 - December 2014",
+				"desc": "I photographed the children that came into see Santa Claus in the Macy's in downtown Pittsburgh, as well as sold photo packages to their parents."
+			},
+			"Custaloga Town Scout Reservation": {
+				"title": "Counselor",
+				"time": "May 2013 - August 2013",
+				"desc": "I taught the Computers, Energy, and Chess merit badges to Boy Scouts, as well as Photography to Cub Scouts."
+			}
+		},
+		"work": {
+			"First Baptist Church of Lytle, TX": {
+				"url": "https://firstbaptistchurchlytle.com",
+				"date": "July 21, 2017",
+				"desc": "This WordPress-based site is a child theme of Baton, with a few additional polishes.",
+				"source": "https://github.com/pschfr/fbc-lytle"
+			},
+			"Kyle Plaskon, Multidisciplinary Designer": {
+				"url": "http://www.kyleplaskon.com/",
+				"date": "June 3, 2015",
+				"desc": "This site was built as a portfolio for my good friend Kyle. It features a large header image, fixed header, case studies, and dynamic filtering through his portfolio."
+			}
+		}
+	}
+}
