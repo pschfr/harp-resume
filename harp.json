@@ -6,49 +6,54 @@
 		"contact": {
 			"phone": "+1-412-414-9939",
 			"email": "hello@paulmakesthe.net",
-			"url": "https://paulmakesthe.net"
+			"url": "paulmakesthe.net",
+			"location": "Pittsburgh, PA"
 		},
 		"education": {
 			"The Art Institute of Pittsburgh": {
-				"time": "2013 - 2015",
+				"time": "2013 — 2015",
 				"major": "Web Design and Interactive Media"
 			},
 			"Erie County Technical School": {
-				"time": "2010 - 2013",
+				"time": "2010 — 2013",
 				"major": "Computer Programming"
 			},
 			"Northwestern Senior High School": {
-				"time": "2009 - 2013"
+				"time": "2009 — 2013"
 			}
 		},
 		"skills": [
-			"HTML",
-			"CSS",
+			"<abbr title='HyperText Markup Language'>HTML</abbr>",
+			"<abbr title='Cascading Style Sheets'>CSS</abbr>",
 			"JavaScript",
-			"PHP",
+			"<abbr title='PreHypertext Processor'>PHP</abbr>",
+			"<abbr title='Structered Query Language'>SQL</abbr>",
 			"Git",
-			"Bash",
 			"Python",
+			"Linux / Shell Scripting",
+			"Apache &amp; Nginx",
+			"WordPress",
+			"Jekyll",
 			"Microsoft Office"
 		],
 		"achievements": [
-			"Former member of SkillsUSA",
-			"Sixth in nation for Technical Computer Applications (work in Microsoft Office)"
+			"Former member of SkillsUSA.",
+			"Sixth in nation for Technical Computer Applications (work in Microsoft Office)."
 		],
 		"experience": {
 			"O2 Digital Creative Agency": {
 				"title": "Developer",
-				"time": "March 2014 - October 2014; October 2015 - July 2017",
+				"time": "March 2014 — October 2014; October 2015 — July 2017",
 				"desc": "I created and maintained dozens of websites and apps for clients small and large. This ranged anywhere from a typical WordPress or Joomla installation, to our own custom PHP-based framework powered by Twig and AWS. Our phone apps were created with Backbone and Apache Cordova."
 			},
 			"Freeze Frame, LLC": {
 				"title": "Photographer",
-				"time": "November 2013 - December 2013; November 2014 - December 2014",
+				"time": "November 2013 — December 2013; November 2014 — December 2014",
 				"desc": "I photographed the children that came into see Santa Claus in the Macy's in downtown Pittsburgh, as well as sold photo packages to their parents."
 			},
 			"Custaloga Town Scout Reservation": {
 				"title": "Counselor",
-				"time": "May 2013 - August 2013",
+				"time": "May 2013 — August 2013",
 				"desc": "I taught the Computers, Energy, and Chess merit badges to Boy Scouts, as well as Photography to Cub Scouts."
 			}
 		},
