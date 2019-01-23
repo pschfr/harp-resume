@@ -4,24 +4,23 @@
 
 body
 	font-family: 'Crimson', Georgia, serif
+	@extend .bg-washed-yellow
+	&.dark
+		@extend .bg-near-black, .washed-yellow
 
 // All links get .dim and .link, as well as inherit color from parent
 a
-	@extend .dim
-	@extend .link
-	color: inherit
+	@extend .dim, .link, .color-inherit
 
 // All unordered lists get no list-item, and resetted margin and padding
 ul
-	@extend .list
-	@extend .pl0
-	@extend .mt0
+	@extend .list, .pl0, .mt0, .mb4
 	li
 		@extend .mb1
 
 // More logical font-weight for headings
 h1, h2, h3, h4, h5, h6
-	font-weight: 600
+	@extend .fw6
 
 // Resets margins on subheadings
 h2
