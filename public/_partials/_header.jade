@@ -1,9 +1,11 @@
 header(class="mt4 mt0-p")
-	h1(class="tracked ttu ma0")= name
+	h1(class="tracked small-caps ma0")= name
 	ul(class="f4 mb0")
 		li(class="dib mr3")
 			a(href="mailto:#{contact.email}")= contact.email
 		li(class="dib mr3")
 			a(href="tel:#{contact.phone}")= contact.phone
 		li(class="dib mr3")
-			a(href="#{contact.url}")= contact.url
+			a(href="https://#{contact.url}" target="_blank")= contact.url
+		li(class="dib mr3")
+			a(href="https://www.google.com/maps/place/#{contact.location}" target="_blank")= contact.location
