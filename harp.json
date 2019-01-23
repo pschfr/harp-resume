@@ -58,6 +58,18 @@
 			}
 		},
 		"work": {
+			"Jerod Shreckengast, Creative Freelancer": {
+				"url": "https://shreckreations.com/",
+				"date": "July 1, 2018",
+				"desc": "This is a description for my website for Jerod.",
+				"source": "https://github.com/pschfr/Shreckreations"
+			},
+			"Erick Morell, Creative Designer and Fabricator": {
+				"url": "https://erickmorellfx.com/",
+				"date": "October 1, 2017",
+				"desc": "This is a description for my website for Erick.",
+				"source": "https://github.com/pschfr/bloody"
+			},
 			"First Baptist Church of Lytle, TX": {
 				"url": "https://firstbaptistchurchlytle.com",
 				"date": "July 21, 2017",
