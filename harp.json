@@ -41,6 +41,16 @@
 			"Sixth in nation for Technical Computer Applications (work in Microsoft Office)."
 		],
 		"experience": {
+			"Target Corporation": {
+				"title": "Backroom Expert",
+				"time": "September 2017 — Present",
+				"desc": "I backstocked items in and pulled items out from the backroom accurately while preventing product damage to control expenses. I used powered equipment such as Crown&reg; WAV and forklifts."
+			},
+			"Bruegger's Bagels": {
+				"title": "Baker",
+				"time": "August — September 2017",
+				"desc": "I baked bagels and other items, as well as helped open the store."
+			},
 			"O2 Digital Creative Agency": {
 				"title": "Developer",
 				"time": "March 2014 — October 2014; October 2015 — July 2017",
@@ -61,13 +71,13 @@
 			"Jerod Shreckengast, Creative Freelancer": {
 				"url": "https://shreckreations.com/",
 				"date": "July 1, 2018",
-				"desc": "This is a description for my website for Jerod.",
+				"desc": "This is a custom-built WordPress theme for my friend Jerod Shreckengast, based on Tachyons.",
 				"source": "https://github.com/pschfr/Shreckreations"
 			},
 			"Erick Morell, Creative Designer and Fabricator": {
 				"url": "https://erickmorellfx.com/",
 				"date": "October 1, 2017",
-				"desc": "This is a description for my website for Erick.",
+				"desc": "Another custom-built WordPress theme, this time for my friend Erick Morell, also based on Tachyons.",
 				"source": "https://github.com/pschfr/bloody"
 			},
 			"First Baptist Church of Lytle, TX": {

@@ -6,7 +6,7 @@
 				h4 #{job.title} at #{name}
 				| 
 				small.db.i= job.time
-				p= job.desc
+				p!= job.desc
 	h2 Client Work
 	ul.measure-ns
 		for client, name in work
