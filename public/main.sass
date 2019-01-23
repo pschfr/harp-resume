@@ -1,9 +1,9 @@
 @import '_sass/tachyons.scss'
 @import '_sass/tachyons-print.scss'
+@import 'fonts/crimson-text.scss'
 
 body
-	font-family: 'Karla', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif
-	font-size: 17px
+	font-family: 'Crimson', Georgia, serif
 
 // All links get .dim and .link, as well as inherit color from parent
 a
@@ -18,6 +18,10 @@ ul
 	@extend .mt0
 	li
 		@extend .mb1
+
+// More logical font-weight for headings
+h1, h2, h3, h4, h5, h6
+	font-weight: 600
 
 // Resets margins on subheadings
 h2
