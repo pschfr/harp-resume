@@ -5,10 +5,10 @@ html(lang="en")
 		meta(http-equiv="X-UA-Compatible" content="IE=edge")
 		meta(name="viewport" content="width=device-width, initial-scale=1")
 		title #{name}&rsquo;s R&eacute;sum&eacute;
-		link(rel="stylesheet" href=(environment == "production" ? "/resume/main.css" : "/main.css"))
+		link(rel="stylesheet" href="#{process.env.PROJECT_ROOT || '/'}main.css")
 	body(class="lh-copy mb4 w-90 w-80-ns w-100-p center")
 		!= partial("_partials/_header")
 		!= yield
 		if environment == "production"
 			!= partial("_partials/_analytics")
-		script(src=(environment == "production" ? "/resume/js/app.js" : "/js/app.js"))
+		script(src="#{process.env.PROJECT_ROOT || '/'}js/app.js")
