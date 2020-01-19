@@ -11,4 +11,3 @@ html(lang="en")
 		!= yield
 		if environment == "production"
 			!= partial("_partials/_analytics")
-		script(src="#{process.env.PROJECT_ROOT || '/'}js/app.js")

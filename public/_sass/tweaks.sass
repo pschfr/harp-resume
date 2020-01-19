@@ -1,0 +1,29 @@
+// Set new default web font as the font,
+// and set the background color from tachyons/_colors.scss.
+body
+	font-family: 'Crimson', Georgia, serif
+	background-color: $washed-yellow
+
+// All links dim on hover, as well as inherit color from parent
+a
+	@extend .dim, .color-inherit
+
+// All unordered lists get no list-item, and a reset margin and padding
+ul
+	@extend .list, .pl0, .mt0, .mb4
+	li
+		@extend .mb1
+
+// More logical font-weight for headings
+h1, h2, h3, h4, h5, h6
+	@extend .fw6
+
+// Resets margins on subheadings
+h2
+	@extend .mb2
+h4
+	@extend .mv0
+
+// Remove top margin on paragraphs
+p
+	@extend .mt0
