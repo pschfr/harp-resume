@@ -10,12 +10,13 @@
 	h2 Client Work
 	ul.measure-ns
 		for client, name in work
-			li
-				h4
-					a(href="#{ client.url }")= name
-				| 
-				small.db.i= client.date
-				p= client.desc
+			if client.visible
+				li
+					h4
+						a(href="#{ client.url }")= name
+					| 
+					small.db.i= client.date
+					p= client.desc
 .w-30-ns.w-100.fr-ns.pl2-ns
 	h2 Education
 	ul
