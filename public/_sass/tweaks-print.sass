@@ -1,0 +1,14 @@
+@media print
+	// This hides the dotted border
+	abbr[title]
+		text-decoration: none
+		border-bottom:   none
+		// This displays the title after the abbreviation
+		&:after
+			content: ' (' attr(title) ')'
+
+	// Adds link addresses after title, only in Client Work section
+	#work a[href]
+		text-decoration: none
+		&:after
+			content: ' ' attr(href)

@@ -8,7 +8,7 @@
 				small.db.i= job.time
 				p!= job.desc
 	h2 Client Work
-	ul.measure-ns
+	ul.measure-ns#work
 		for client, name in work
 			if client.visible
 				li
@@ -19,19 +19,19 @@
 					p= client.desc
 .w-30-ns.w-100.fr-ns.pl2-ns
 	h2 Education
-	ul
+	ul#education
 		for details, school in education
-			li.dib-p.mr2-p
+			li
 				h4= school
 				| 
 				p= details.major
 					small.db.i= details.time
 	h2 Skills
-	ul
+	ul#skills
 		for skill in skills
-			li.dib-p.mr2-p!= skill
+			li!= skill
 	h2 Achievements
-	ul
+	ul#achievements
 		for award in achievements
 			li= award
 	small References are available upon request.
