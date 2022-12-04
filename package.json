@@ -4,8 +4,8 @@
   "description": "This is my résumé! It's made into a website with [`harp`](https://github.com/sintaxi/harp), [`tachyons-sass`](https://github.com/tachyons-css/tachyons-sass), [`tachyons-print`](https://github.com/lowmess/tachyons-print), and some magic! ✨",
   "main": "gulpfile.js",
   "scripts": {
-    "start": "harp server --port ${PORT:-9000}",
-    "build": "harp . build www",
+    "start": "harp .",
+    "build": "harp . www",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

@@ -35,7 +35,8 @@
 			"Apache &amp; Nginx",
 			"WordPress",
 			"Jekyll",
-			"Microsoft Office"
+			"Microsoft Office",
+			"Adobe Creative Suite"
 		],
 		"achievements": [
 			"Former member of SkillsUSA.",
@@ -74,29 +75,18 @@
 			}
 		},
 		"work": {
-			"Jerod Shreckengast, Creative Freelancer": {
-				"url": "https://shreckreations.com/",
-				"date": "July 1, 2018",
-				"desc": "This is a custom-built WordPress theme for my friend Jerod Shreckengast, based on Tachyons.",
-				"source": "https://github.com/pschfr/Shreckreations"
-			},
-			"Erick Morell, Creative Designer and Fabricator": {
-				"url": "https://erickmorellfx.com/",
-				"date": "October 1, 2017",
-				"desc": "Another custom-built WordPress theme, this time for my friend Erick Morell, also based on Tachyons.",
-				"source": "https://github.com/pschfr/bloody"
-			},
 			"First Baptist Church of Lytle, TX": {
 				"url": "https://firstbaptistchurchlytle.com",
-				"date": "July 21, 2017",
+				"date": "July 2017",
 				"desc": "This WordPress-based site is a child theme of Baton, with a few additional polishes.",
 				"source": "https://github.com/pschfr/fbc-lytle",
 				"visible": true
 			},
 			"Kyle Plaskon, Multidisciplinary Designer": {
 				"url": "http://www.kyleplaskon.com/",
-				"date": "June 3, 2015",
-				"desc": "This site was built as a portfolio for my good friend Kyle. It features a large header image, fixed header, case studies, and dynamic filtering through his portfolio."
+				"date": "June 2015",
+				"desc": "This site was built as a portfolio for my good friend Kyle. It features a large header image, fixed header, case studies, and dynamic filtering through his portfolio.",
+				"visible": true
 			}
 		}
 	}
