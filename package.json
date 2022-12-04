@@ -5,7 +5,7 @@
   "main": "gulpfile.js",
   "scripts": {
     "start": "harp server --port ${PORT:-9000}",
-    "build": "harp compile",
+    "build": "harp . build www",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
