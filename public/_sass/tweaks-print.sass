@@ -1,14 +1,15 @@
 @media print
-	// This hides the dotted border
-	abbr[title]
+	// This hides the dotted border and link underlines
+	abbr[title], a[href]
 		text-decoration: none
-		border-bottom:   none
+
+	abbr[title]
+		border-bottom: none
 		// This displays the title after the abbreviation
 		&:after
 			content: ' (' attr(title) ')'
 
-	// Adds link addresses after title, only in Client Work section
-	#work a[href]
-		text-decoration: none
-		&:after
-			content: ' ' attr(href)
+	// Adds link addresses after title, only in Client Work section and GitHub link
+	#work, small
+		a[href]:after
+			content: ': ' attr(href)
