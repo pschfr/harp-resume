@@ -1,10 +1,12 @@
-// Set new default web font as the font,
-// and set the background color from tachyons/_colors.scss.
+// Sets my custom order of the system UI font family (see variables.sass),
+// sets the background color from tachyons/_variables.scss,
+// as well as a slightly smaller font size overall.
 body
-	font-family: 'Crimson', Georgia, serif
+	font-family: $sans-serif
 	background-color: $washed-yellow
+	@extend .f6
 
-// All links dim on hover, as well as inherit color from parent
+// All links dim on hover/focus, as well as inherit color from parent
 a
 	@extend .dim, .color-inherit
 
@@ -14,11 +16,11 @@ ul
 	li
 		@extend .mb1
 
-// More logical font-weight for headings
-h1, h2, h3, h4, h5, h6
+// More logical font-weight for sub-headings
+h4, h5, h6
 	@extend .fw6
 
-// Resets margins on subheadings
+// Resets margins on some headings
 h2
 	@extend .mb2
 h4

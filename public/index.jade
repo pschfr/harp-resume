@@ -1,6 +1,6 @@
-.w-70-ns.w-100.fl-ns.pr2-ns
+.w-70-ns.w-100.fl-ns.pr3-ns
 	h2 Experience
-	ul.measure-ns#experience
+	ul.measure-wide-ns#experience
 		for job, name in experience
 			li
 				h4 #{job.title} at #{name}
@@ -8,16 +8,16 @@
 				small.db.i= job.time
 				p!= job.desc
 	h2 Client Work
-	ul.measure-ns#work
+	ul.measure-wide-ns#work
 		for client, name in work
 			if client.visible
 				li
 					h4
-						a(href="#{ client.url }")= name
+						a(href="#{ client.url }" target="_blank" rel="noopener" title="opens in new tab")= name
 					| 
 					small.db.i= client.date
 					p= client.desc
-.w-30-ns.w-100.fr-ns.pl2-ns
+.w-30-ns.w-100.fr-ns.pl3-ns
 	h2 Education
 	ul#education
 		for details, school in education
@@ -29,9 +29,13 @@
 	h2 Skills
 	ul#skills
 		for skill in skills
-			li!= skill
+			li.w-100-ns.w-50.dib!= skill
 	h2 Achievements
 	ul#achievements
 		for award in achievements
 			li= award
 	small References are available upon request.
+	br
+	small Source available on 
+		a(href="#{ github }" target="_blank" rel="noopener" title="opens in new tab") GitHub
+		| .
