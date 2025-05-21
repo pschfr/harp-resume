@@ -1,9 +1,9 @@
-.w-70-ns.w-100.fl.pr3
+.w-70-ns.w-70-p.w-100.fl.pr3
 	h2 Experience
 	h6.i Click to reveal details.
 	ul.mt2.mb4.measure-wide.overflow-hidden#experience
 		for job, name in experience
-			li.mb4
+			li.mb4.mb5-p
 				details
 					summary.relative.pointer
 						.container.absolute.top-0.left-0.w-100
@@ -22,7 +22,7 @@
 					| 
 					small.db.i= client.date
 					p= client.desc
-.w-30-ns.w-100.fr.pl3
+.w-30-ns.w-30-p.w-100.fr.pl3
 	h2 Education
 	ul.mb4#education
 		for details, school in education
@@ -41,6 +41,7 @@
 			li.mb1= award
 	small References are available upon request.
 	br
+	br.dn.db-p
 	small Source code is available on 
 		a(href="#{ github }" target="_blank" rel="noopener" title="opens in new tab") GitHub
 		| .
