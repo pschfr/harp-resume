@@ -13,3 +13,11 @@
 	#work, small
 		a[href]:after
 			content: ': ' attr(href)
+
+	// Hides certain subheadings for better readability
+	h6
+		display: none
+
+	// Hides the +/- icons in the work experience area
+	summary::marker
+		content: ''
