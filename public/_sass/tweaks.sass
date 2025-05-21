@@ -1,10 +1,6 @@
-// Sets my custom order of the system UI font family (see variables.sass),
-// sets the background color from tachyons/_variables.scss,
-// as well as a slightly smaller font size overall.
+// Sets the background color from tachyons/_variables.scss
 body
-	font-family: $sans-serif
 	background-color: $washed-yellow
-	@extend .f6
 
 // All links dim on hover/focus, as well as inherit color from parent
 a
@@ -12,20 +8,23 @@ a
 
 // All unordered lists get no list-item, and a reset margin and padding
 ul
-	@extend .list, .pl0, .mt0, .mb4
-	li
-		@extend .mb1
+	@extend .list, .pa0, .ma0
 
-// More logical font-weight for sub-headings
-h4, h5, h6
-	@extend .fw6
+// Removes margin & padding on headings & paragraph elements
+h1, h2, h3, h4, h5, h6, p
+	@extend .ma0, .pa0
 
-// Resets margins on some headings
-h2
-	@extend .mb2
-h4
-	@extend .mv0
+// Changing the default arrow to a +/- situation, plus animating the details tags opening
+details[open]
+	summary
+		&::marker
+			content: '-'
 
-// Remove top margin on paragraphs
-p
-	@extend .mt0
+summary
+	transform: scaleX(-1)
+	display: list-item
+	.container
+		transform: scaleX(-1)
+	&::marker
+		@extend .code
+		content: '+'

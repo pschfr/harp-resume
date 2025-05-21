@@ -1,41 +1,46 @@
-.w-70-ns.w-100.fl-ns.pr3-ns
+.w-70-ns.w-100.fl.pr3
 	h2 Experience
-	ul.measure-wide-ns#experience
+	h6.i Click to reveal details.
+	ul.mt2.mb4.measure-wide.overflow-hidden#experience
 		for job, name in experience
-			li
-				h4 #{job.title} at #{name}
-				| 
-				small.db.i= job.time
-				p!= job.desc
+			li.mb4
+				details
+					summary.relative.pointer
+						.container.absolute.top-0.left-0.w-100
+							h4 #{job.title} at #{name}
+							| 
+							small.db.i= job.time
+					p.mt4!= job.desc
 	h2 Client Work
-	ul.measure-wide-ns#work
+	h6.i Click to open in new tab.
+	ul.mt2.measure-wide.overflow-hidden#work
 		for client, name in work
 			if client.visible
-				li
+				li.mb4
 					h4
 						a(href="#{ client.url }" target="_blank" rel="noopener" title="opens in new tab")= name
 					| 
 					small.db.i= client.date
 					p= client.desc
-.w-30-ns.w-100.fr-ns.pl3-ns
+.w-30-ns.w-100.fr.pl3
 	h2 Education
-	ul#education
+	ul.mb4#education
 		for details, school in education
-			li
+			li.mb3
 				h4= school
 				| 
 				p= details.major
 					small.db.i= details.time
 	h2 Skills
-	ul#skills
+	ul.mb4#skills
 		for skill in skills
-			li.w-100-ns.w-50.dib!= skill
+			li.w-50.dib.mb1!= skill
 	h2 Achievements
-	ul#achievements
+	ul.mb4#achievements
 		for award in achievements
-			li= award
+			li.mb1= award
 	small References are available upon request.
 	br
-	small Source available on 
+	small Source code is available on 
 		a(href="#{ github }" target="_blank" rel="noopener" title="opens in new tab") GitHub
 		| .

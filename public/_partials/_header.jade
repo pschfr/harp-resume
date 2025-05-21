@@ -1,11 +1,11 @@
-header(class="mt4 mt0-p")
-	h1(class="ma0")= name
-	ul(class="mb0")
-		li(class="dib mr3")
+header.mv4.mt0-p
+	h1= name
+	ul.mv0
+		li.dib.mr3
 			a(href="mailto:#{contact.email}")= contact.email
-		li(class="dib mr3")
+		li.dib.mr3
 			a(href="tel:#{contact.phone}")= contact.phone
-		li(class="dib mr3")
+		li.dib.mr3.dn-p
 			a(href="https://#{contact.url}" target="_blank" rel="noopener")= contact.url
-		li(class="dib mr3")
+		li.dib.mr3.dn-p
 			a(href="https://www.google.com/maps/place/#{contact.location}" target="_blank" rel="noopener")= contact.location

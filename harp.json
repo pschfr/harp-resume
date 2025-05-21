@@ -6,13 +6,13 @@
 		"contact": {
 			"phone": "+1-412-414-9939",
 			"email": "yeppaul2@gmail.com",
-			"url": "github.com/pschfr",
+			"url": "pschfr.github.io/paulmakesthe.net",
 			"location": "Pittsburgh, PA"
 		},
 		"education": {
 			"The Art Institute of Pittsburgh": {
 				"time": "2013 — 2015",
-				"major": "Web Design and Interactive Media"
+				"major": "Associates in Web Design and Interactive Media"
 			},
 			"Erie County Technical School": {
 				"time": "2010 — 2013",
@@ -31,8 +31,8 @@
 			"Git",
 			"Python",
 			"Ruby",
-			"Linux / Shell Scripting",
-			"Apache &amp; Nginx",
+			"Linux",
+			"Apache / Nginx",
 			"WordPress",
 			"Jekyll",
 			"Microsoft Office",
@@ -40,13 +40,18 @@
 		],
 		"achievements": [
 			"Former member of SkillsUSA.",
-			"Sixth in nation for Technical Computer Applications (work in Microsoft Office)."
+			"Achieved sixth in the nation for Technical Computer Applications (work in Microsoft Office)."
 		],
 		"experience": {
+			"CVS Health": {
+				"title": "Operations Manager",
+				"time": "October 2024 — May 2025",
+				"desc": "Managed day-to-day operations at in the store, such as overseeing staff, enhancing customer service, managing inventory, ensuring compliance with legal regulations, and driving sales performance to achieve business goals."
+			},
 			"Whole Foods Market": {
 				"title": "Overnight Grocery Supervisor",
-				"time": "January 2021 — Present",
-				"desc": "I was responsible for receiving and preparing product, maintaining the floor stock and displays, and selling product in support of regional standards. I ensured a positive company image by providing courteous, friendly, and efficient customer service to customers and team members.<br/>In August 2022, the Whole Foods I worked at moved to a much larger new building, also promoting me to overnight supervisor in the process. I helped our overnight team transition over to the new building."
+				"time": "January 2021 — September 2024",
+				"desc": "I was responsible for receiving and preparing product, maintaining the floor stock and displays, and selling product in support of regional standards. I ensured a positive company image by providing courteous, friendly, and efficient customer service to customers and team members.<br/>In August 2022, the location I worked at moved to a much larger new building, also promoting me to overnight supervisor in the process. I helped our overnight team transition over to the new building."
 			},
 			"Target Corporation": {
 				"title": "General Merchandise and Backroom Team Member",

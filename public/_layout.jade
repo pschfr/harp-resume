@@ -6,7 +6,7 @@ html(lang="en")
 		meta(name="viewport" content="width=device-width, initial-scale=1")
 		title #{name}&rsquo;s R&eacute;sum&eacute;
 		link(rel="stylesheet" href="#{process.env.PROJECT_ROOT || '/'}main.css")
-	body(class="lh-copy mb4 w-90 w-80-ns w-100-p center")
+	body(class="lh-copy mb4 w-90 w-80-ns w-100-p center f7-p calisto")
 		!= partial("_partials/_header")
 		!= yield
 		if environment == "production"
