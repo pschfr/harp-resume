@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/pschfr/harp-resume#readme",
   "dependencies": {
-    "harp": "^0.40.3"
+    "harp": "^0.40.3",
+    "tachyons-sass": "^4.9.5"
   }
 }
